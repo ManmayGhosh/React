@@ -14,13 +14,15 @@ function InputBox({
 
     return (
         <div
-            className={`bg-white p-3 rounded-lg text-sm flex ${className}`}
+            className = { 
+                `bg-white p-3 rounded-lg text-sm flex ${className}`
+            }
         >
             <div
                 className="w-1-2"
             >
                 <label
-                    className="text-black/40 mb-2 inline-block"
+                    className = "text-black/40 mb-2 inline-block"
                 >
                     {label}
                 </label>
@@ -37,7 +39,7 @@ function InputBox({
                 />
             </div>
             <div
-                className="w-1/2 flex flex-wrap justify-end text-right"
+                className = "w-1/2 flex flex-wrap justify-end text-right"
             >
                 <p
                     className="text-black/40 mb-2 w-full"
